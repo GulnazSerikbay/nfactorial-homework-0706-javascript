@@ -21,7 +21,7 @@ let mentors = [
     { name: "David", lead: "full-stack", teaches: "SQL"}, 
     { name: "Aidar", lead: "full-stack", teaches: "Git"}, 
     { name:"Abylay", lead: "backend", teaches: "" }, 
-    { name:"Beknur", lead: "frontend", teaches: "JS" }, 
+    { name:"Beknar", lead: "frontend", teaches: "JS" }, 
     { name: "Samat", lead: "backend", teaches: "" }, 
     { name: "Aruzhan", lead: "full-stack", teaches: "Vanilla"},
     boss2];

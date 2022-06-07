@@ -1,7 +1,7 @@
 #! /usr/bin/env node
 // points to node
 
-const API_KEY = "keyi4jNBaiTlEWg1r";
+const API_KEY = null;
 
 const { program } = require("commander");
 
