@@ -12,11 +12,11 @@ base ("Students' homework").create(
     [
         {
             fields: {
-                Name: ["recqASIZ325ctWlQb"],
-                Homework: ["recRjsvKdXqFYEhws"],
-                Sandbox: "https:",
+                Name: [""],
+                Homework: [""],
+                Sandbox: "link",
                 "github repo":
-                    "https:",
+                    "link",
             },
         },
     ],
@@ -33,14 +33,11 @@ base ("Students' homework").create(
 
 base('Students\' homework')._findRecordById()
 const submit = (name, sUrl, gUrl) => {
-    /* const name = "";
-    const sandboxUrl = "";
-    const githubUrl = ""; */
     console.log(`Submitted! ${name}, ${sUrl}, ${gUrl}`);
 }
 // imitation of adding your name
 const getAllStudents = () => {
-    base("Students' homework").find("recFi4I1lrbdPUoqE", function (err, record) {
+    base("Students' homework").find("tofind", function (err, record) {
         if (err) {
             console.error(err);
             return;
